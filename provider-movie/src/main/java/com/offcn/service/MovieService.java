@@ -15,6 +15,8 @@ public class MovieService {
 
     public Movie getNewMovie() {
         System.out.println("当前电影服务的端口："+port);
+        System.out.println("asdsad");
         return movieDao.getNewMovie();
+
     }
 }
